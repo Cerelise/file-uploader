@@ -29,18 +29,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-# CORS_ORIGIN_WHITELIST = [
-#     "http://localhost:5173",
-# ]
-# CORS_ALLOW_CREDENTIALS = True
-
-# CSRF_COOKIE_HTTPONLY = False
-
-# 配置 CSRF Cookie 的名称和域名
-# CSRF_COOKIE_SECURE = True
-# CSRF_COOKIE_NAME = 'csrftoken'
-# CSRF_COOKIE_DOMAIN = 'http://127.0.0.1:5173'  # 设置为实际的域名或 None
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -49,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
-    # 'rest_framework',
+    'rest_framework',
     'document'
 ]
 
